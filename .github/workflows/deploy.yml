@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   schedule:
-    - cron: "1 *  * * *" # Every day at midnight.
+    - cron: "5 *  * * *" # Every day at midnight.
   workflow_dispatch:
   push:
     branches:
