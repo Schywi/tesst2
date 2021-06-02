@@ -5,9 +5,9 @@ module.exports = {
     title: `Aimily`,
     description: `Transform any Notion pages to Gatsby static sites`,
     author: `Lucas`,
-    siteUrl: `https://github.com/Schywi`,
+    siteUrl: `https://schywi.github.io/`,
   },
-
+  pathPrefix: "test",
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
