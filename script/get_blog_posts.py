@@ -11,10 +11,10 @@ from slugify import slugify
 from notion.client import NotionClient
 from PIL import Image
 
-NOTION_TOKEN = os.getenv('NOTION_TOKEN')
+NOTION_TOKEN = "6d864c5b6169ae53da2a335ee18f236d3396759f07d05643f24b25d9f55857979161c3efa6e1bf3bcfa06f839be224e720cfbd556025b14aba57720179ac2c9ebd22c84e7b21531dc368813be705"
 NOTION_USER_ID = os.getenv('NOTION_USER_ID')
-NOTION_ROOT_PAGE_ID = os.getenv('NOTION_ROOT_URL').split('-')[-1]
-
+NOTION_ROOT_PAGE_ID = "12b17030034f4b6ab51af84d1f0168c2"
+print("POHA", NOTION_TOKEN ,NOTION_ROOT_PAGE_ID  )
 if NOTION_TOKEN is None:
     sys.exit("The NOTION_TOKEN is missing, see the readme on how to set it.")
 if NOTION_ROOT_PAGE_ID is None:

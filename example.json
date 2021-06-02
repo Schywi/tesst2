@@ -3,11 +3,11 @@
   "blog_title": "MY BLOG",
   "description": "THIS IS MY BLOG",
   "author": "TEST",
-  "github_username": "MY_USERNAME",
-  "target_dir": "/Users/indo/code",
+  "github_username": "Schywi",
+  "target_dir": "/home/lucas/Test",
   "notion_user_id": "example@exmple.com",
-  "notion_token": "MY_NOTION_TOKEN",
-  "notion_root_url": "https://www.notion.so/MY_PAGE_URL",
+  "notion_token": "6d864c5b6169ae53da2a335ee18f236d3396759f07d05643f24b25d9f55857979161c3efa6e1bf3bcfa06f839be224e720cfbd556025b14aba57720179ac2c9ebd22c84e7b21531dc368813be705",
+  "notion_root_url": "https://www.notion.so/Teste-12b17030034f4b6ab51af84d1f0168c2",
   "google_analytics": "U-XXX",
   "google_adsense": "ca-pub-xx"
 }
