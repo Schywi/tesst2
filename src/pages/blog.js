@@ -23,6 +23,7 @@ export default function Blog({ data, location }) {
             `}
           >
             <header>
+              {node.fields.slug}
               <Link
                 to={`/blog${node.fields.slug}`}
                 css={css`

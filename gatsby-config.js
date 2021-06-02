@@ -2,12 +2,12 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Notion2Gatsby`,
+    title: `Aimily`,
     description: `Transform any Notion pages to Gatsby static sites`,
-    author: `Indosaram`,
-    siteUrl: `https://Indosaram.github.io`,
+    author: `Lucas`,
+    siteUrl: `https://github.com/Schywi`,
   },
-  pathPrefix: "notion2gatsby",
+
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
