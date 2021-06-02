@@ -7,7 +7,7 @@ module.exports = {
     author: `Lucas`,
     siteUrl: `https://schywi.github.io/`,
   },
-  pathPrefix: "test",
+  pathPrefix: "teste",
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
