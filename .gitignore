@@ -63,7 +63,7 @@ typings/
 # gatsby files
 .cache/
 
-
+./set-a-smart-goal
 # Mac files
 .DS_Store
 
